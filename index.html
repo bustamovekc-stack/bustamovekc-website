@@ -4,17 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Party Bus Rental Kansas City | Bus-ta Move KC</title>
-  <meta name="description" content="Kansas City's premier private party bus rental. Up to 12 passengers, BYOB, sound system & TV. Book your bachelorette, birthday, or bar crawl today. Licensed & insured Â· MC-1815285-C." />
+  <meta name="description" content="Kansas City's premier private party bus rental. Up to 12 passengers, BYOB, sound system &amp; TV. Book your bachelorette, birthday, or bar crawl today. Licensed &amp; insured · MC-1815285-C." />
   <meta name="keywords" content="party bus Kansas City, party bus rental KC, Kansas City party bus, bachelorette party bus KC, birthday party bus Kansas City, bar crawl bus KC, BYOB party bus Kansas City" />
   <meta property="og:title" content="Party Bus Rental Kansas City | Bus-ta Move KC" />
-  <meta property="og:description" content="Kansas City's premier private party bus rental. Up to 12 passengers, BYOB, sound system & TV. Book your bachelorette, birthday, or bar crawl today." />
+  <meta property="og:description" content="Kansas City's premier private party bus rental. Up to 12 passengers, BYOB, sound system &amp; TV. Book your bachelorette, birthday, or bar crawl today." />
   <meta property="og:url" content="https://bustamovekc.com" />
   <meta property="og:type" content="website" />
   <link rel="canonical" href="https://bustamovekc.com" />
-  <!-- To publish on Ionos: upload this file as index.html along with logo.png in the same folder -->
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-
     :root {
       --teal:       #0097B2;
       --dark-teal:  #005F73;
@@ -25,307 +23,66 @@
       --gray:       #6B7280;
       --light:      #F4FBFC;
     }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      color: var(--dark-teal);
-      background: var(--white);
-    }
-
-    /* NAV */
-    nav {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: var(--white);
-      border-bottom: 1px solid #d6eef1;
-      padding: 0 32px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 68px;
-    }
-    .nav-logo {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      text-decoration: none;
-    }
-    .nav-logo img {
-      height: 48px;
-      width: auto;
-      display: block;
-    }
-    .nav-logo-fallback {
-      display: none;
-      flex-direction: column;
-    }
-    .nav-logo-text {
-      font-size: 20px;
-      font-weight: 800;
-      letter-spacing: -0.5px;
-      color: var(--dark-teal);
-    }
-    .nav-logo-text span {
-      color: var(--white);
-      background: var(--teal);
-      padding: 2px 8px;
-      border-radius: 4px;
-      margin-right: 4px;
-    }
-    .nav-tagline {
-      font-size: 11px;
-      color: var(--gray);
-      font-weight: 500;
-      letter-spacing: 0.02em;
-    }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--dark-teal); background: var(--white); }
+    nav { position: sticky; top: 0; z-index: 100; background: var(--white); border-bottom: 1px solid #d6eef1; padding: 0 32px; display: flex; align-items: center; justify-content: space-between; height: 68px; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-logo img { height: 48px; width: auto; display: block; }
+    .nav-logo-fallback { display: none; flex-direction: column; }
+    .nav-logo-text { font-size: 20px; font-weight: 800; letter-spacing: -0.5px; color: var(--dark-teal); }
+    .nav-logo-text span { color: var(--white); background: var(--teal); padding: 2px 8px; border-radius: 4px; margin-right: 4px; }
+    .nav-tagline { font-size: 11px; color: var(--gray); font-weight: 500; letter-spacing: 0.02em; }
     .nav-links { display: flex; gap: 28px; list-style: none; }
     .nav-links a { font-size: 14px; color: var(--gray); text-decoration: none; font-weight: 500; }
     .nav-links a:hover { color: var(--teal); }
-    .nav-cta {
-      background: var(--teal);
-      color: var(--white);
-      font-size: 14px;
-      font-weight: 700;
-      padding: 10px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-    }
+    .nav-cta { background: var(--teal); color: var(--white); font-size: 14px; font-weight: 700; padding: 10px 20px; border-radius: 8px; text-decoration: none; }
     .nav-cta:hover { background: var(--mid-teal); }
-
-    /* HERO */
-    .hero {
-      background: var(--navy);
-      color: var(--white);
-      padding: 100px 32px 80px;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-    }
-    .hero::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: radial-gradient(ellipse at 60% 0%, rgba(27,188,204,0.18) 0%, transparent 65%);
-      pointer-events: none;
-    }
-    .hero-tag {
-      display: inline-block;
-      background: var(--teal);
-      color: var(--white);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      padding: 6px 16px;
-      border-radius: 99px;
-      margin-bottom: 24px;
-    }
-    .hero-sub {
-      font-size: 14px;
-      font-weight: 700;
-      color: var(--teal);
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      margin-bottom: 16px;
-    }
-    .hero h1 {
-      font-size: clamp(38px, 7vw, 68px);
-      font-weight: 800;
-      line-height: 1.05;
-      letter-spacing: -1px;
-      max-width: 760px;
-      margin: 0 auto 20px;
-    }
+    .nav-social { display: flex; align-items: center; gap: 8px; }
+    .nav-social a { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 8px; color: var(--gray); text-decoration: none; transition: color 0.2s, background 0.2s; }
+    .nav-social a:hover { color: var(--teal); background: var(--light-teal); }
+    .nav-social svg { width: 18px; height: 18px; fill: currentColor; }
+    .hero { background: var(--navy); color: var(--white); padding: 100px 32px 80px; text-align: center; position: relative; overflow: hidden; }
+    .hero::before { content: ""; position: absolute; inset: 0; background: radial-gradient(ellipse at 60% 0%, rgba(27,188,204,0.18) 0%, transparent 65%); pointer-events: none; }
+    .hero-tag { display: inline-block; background: var(--teal); color: var(--white); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; padding: 6px 16px; border-radius: 99px; margin-bottom: 24px; }
+    .hero-sub { font-size: 14px; font-weight: 700; color: var(--teal); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 16px; }
+    .hero h1 { font-size: clamp(38px, 7vw, 68px); font-weight: 800; line-height: 1.05; letter-spacing: -1px; max-width: 760px; margin: 0 auto 20px; }
     .hero h1 em { font-style: normal; color: var(--teal); }
-    .hero p {
-      font-size: 18px;
-      color: rgba(255,255,255,0.65);
-      max-width: 520px;
-      margin: 0 auto 40px;
-      line-height: 1.6;
-    }
+    .hero p { font-size: 18px; color: rgba(255,255,255,0.65); max-width: 520px; margin: 0 auto 40px; line-height: 1.6; }
     .hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-    .btn-primary {
-      background: var(--teal);
-      color: var(--white);
-      font-size: 16px;
-      font-weight: 700;
-      padding: 16px 32px;
-      border-radius: 10px;
-      text-decoration: none;
-      display: inline-block;
-    }
+    .btn-primary { background: var(--teal); color: var(--white); font-size: 16px; font-weight: 700; padding: 16px 32px; border-radius: 10px; text-decoration: none; display: inline-block; }
     .btn-primary:hover { background: var(--mid-teal); }
-    .btn-secondary {
-      background: transparent;
-      color: var(--white);
-      font-size: 16px;
-      font-weight: 600;
-      padding: 16px 32px;
-      border-radius: 10px;
-      text-decoration: none;
-      border: 2px solid rgba(255,255,255,0.2);
-      display: inline-block;
-    }
+    .btn-secondary { background: transparent; color: var(--white); font-size: 16px; font-weight: 600; padding: 16px 32px; border-radius: 10px; text-decoration: none; border: 2px solid rgba(255,255,255,0.2); display: inline-block; }
     .btn-secondary:hover { border-color: var(--teal); color: var(--teal); }
-    .hero-stats {
-      display: flex;
-      justify-content: center;
-      gap: 48px;
-      margin-top: 64px;
-      padding-top: 40px;
-      border-top: 1px solid rgba(255,255,255,0.08);
-      flex-wrap: wrap;
-    }
+    .hero-stats { display: flex; justify-content: center; gap: 48px; margin-top: 64px; padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.08); flex-wrap: wrap; }
     .stat { text-align: center; }
     .stat-number { font-size: 32px; font-weight: 800; color: var(--teal); }
     .stat-label { font-size: 13px; color: rgba(255,255,255,0.45); margin-top: 4px; }
-
-    /* OCCASIONS */
     .occasions { background: var(--light); padding: 80px 32px; text-align: center; }
-    .section-tag {
-      display: inline-block;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--teal);
-      margin-bottom: 12px;
-    }
-    .section-title {
-      font-size: clamp(28px, 4vw, 40px);
-      font-weight: 800;
-      letter-spacing: -0.5px;
-      color: var(--dark-teal);
-      margin-bottom: 12px;
-    }
-    .section-sub {
-      font-size: 16px;
-      color: var(--gray);
-      max-width: 480px;
-      margin: 0 auto 48px;
-      line-height: 1.6;
-    }
-    .occasions-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 16px;
-      max-width: 860px;
-      margin: 0 auto;
-    }
-    .occasion-card {
-      background: var(--white);
-      border-radius: 12px;
-      padding: 24px 16px;
-      text-align: center;
-      border: 1px solid #d6eef1;
-    }
+    .section-tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal); margin-bottom: 12px; }
+    .section-title { font-size: clamp(28px, 4vw, 40px); font-weight: 800; letter-spacing: -0.5px; color: var(--dark-teal); margin-bottom: 12px; }
+    .section-sub { font-size: 16px; color: var(--gray); max-width: 480px; margin: 0 auto 48px; line-height: 1.6; }
+    .occasions-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; max-width: 860px; margin: 0 auto; }
+    .occasion-card { background: var(--white); border-radius: 12px; padding: 24px 16px; text-align: center; border: 1px solid #d6eef1; }
     .occasion-icon { font-size: 32px; margin-bottom: 10px; }
     .occasion-label { font-size: 14px; font-weight: 600; color: var(--dark-teal); }
-
-    /* HOW IT WORKS */
     .how { padding: 80px 32px; text-align: center; background: var(--white); }
-    .steps {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 32px;
-      max-width: 900px;
-      margin: 48px auto 0;
-    }
+    .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 32px; max-width: 900px; margin: 48px auto 0; }
     .step { text-align: left; }
-    .step-num {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 40px; height: 40px;
-      background: var(--teal);
-      color: var(--white);
-      font-size: 16px;
-      font-weight: 800;
-      border-radius: 10px;
-      margin-bottom: 16px;
-    }
+    .step-num { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: var(--teal); color: var(--white); font-size: 16px; font-weight: 800; border-radius: 10px; margin-bottom: 16px; }
     .step h3 { font-size: 18px; font-weight: 700; color: var(--dark-teal); margin-bottom: 8px; }
     .step p { font-size: 14px; color: var(--gray); line-height: 1.6; }
-
-    /* THE BUS */
     .bus-section { background: var(--dark-teal); color: var(--white); padding: 80px 32px; }
-    .bus-inner {
-      max-width: 900px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 64px;
-      align-items: center;
-    }
+    .bus-inner { max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
     .bus-text .section-tag { color: var(--teal); }
     .bus-text .section-title { color: var(--white); }
     .bus-text .section-sub { color: rgba(255,255,255,0.6); margin: 0 0 32px; max-width: none; }
     .bus-features { list-style: none; display: flex; flex-direction: column; gap: 12px; }
-    .bus-features li {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 15px;
-      color: rgba(255,255,255,0.85);
-    }
-    .bus-features li::before {
-      content: "â";
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      width: 22px; height: 22px;
-      background: var(--teal);
-      color: var(--white);
-      font-size: 12px;
-      font-weight: 800;
-      border-radius: 5px;
-      flex-shrink: 0;
-    }
-    .bus-photo-placeholder {
-      background: rgba(255,255,255,0.05);
-      border-radius: 16px;
-      aspect-ratio: 4/3;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 12px;
-      color: rgba(255,255,255,0.25);
-      border: 2px dashed rgba(27,188,204,0.3);
-    }
-    .bus-photo-placeholder span { font-size: 40px; }
-    .bus-photo-placeholder p { font-size: 13px; text-align: center; }
-
-    /* PRICING */
+    .bus-features li { display: flex; align-items: center; gap: 10px; font-size: 15px; color: rgba(255,255,255,0.85); }
+    .bus-features li::before { content: "✓"; display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; background: var(--teal); color: var(--white); font-size: 12px; font-weight: 800; border-radius: 5px; flex-shrink: 0; }
     .pricing { background: var(--light); padding: 80px 32px; text-align: center; }
-    .pricing-cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 20px;
-      max-width: 860px;
-      margin: 48px auto 0;
-    }
-    .pricing-card {
-      background: var(--white);
-      border-radius: 16px;
-      padding: 32px 24px;
-      text-align: left;
-      position: relative;
-      border: 1px solid #d6eef1;
-    }
+    .pricing-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; max-width: 860px; margin: 48px auto 0; }
+    .pricing-card { background: var(--white); border-radius: 16px; padding: 32px 24px; text-align: left; position: relative; border: 1px solid #d6eef1; }
     .pricing-card.featured { background: var(--dark-teal); color: var(--white); border-color: var(--dark-teal); }
-    .pricing-badge {
-      position: absolute;
-      top: -12px; right: 20px;
-      background: var(--teal);
-      color: var(--white);
-      font-size: 11px;
-      font-weight: 700;
-      padding: 4px 12px;
-      border-radius: 99px;
-    }
+    .pricing-badge { position: absolute; top: -12px; right: 20px; background: var(--teal); color: var(--white); font-size: 11px; font-weight: 700; padding: 4px 12px; border-radius: 99px; }
     .pricing-name { font-size: 13px; font-weight: 700; color: var(--teal); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.06em; }
     .pricing-price { font-size: 36px; font-weight: 800; color: var(--dark-teal); margin-bottom: 4px; }
     .pricing-card.featured .pricing-price { color: var(--white); }
@@ -334,112 +91,46 @@
     .pricing-features { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
     .pricing-features li { font-size: 14px; color: var(--gray); display: flex; align-items: center; gap: 8px; }
     .pricing-card.featured .pricing-features li { color: rgba(255,255,255,0.75); }
-    .pricing-features li::before { content: "â"; font-weight: 700; color: var(--teal); }
-    .pricing-cta {
-      display: block;
-      text-align: center;
-      padding: 12px;
-      border-radius: 8px;
-      font-size: 14px;
-      font-weight: 700;
-      text-decoration: none;
-      background: var(--light-teal);
-      color: var(--dark-teal);
-    }font-size: 14px; color: var(--gray); display: flex; align-items: center; gap: 8px; }
-    .pricing-card.featured .pricing-features li { color: rgba(255,255,255,0.75); }
-    .pricing-features li::before { content: "â"; font-weight: 700; color: var(--teal); }
-    .pricing-cta {
-      display: block;
-      text-align: center;
-      padding: 12px;
-      border-radius: 8px;
-      font-size: 14px;
-      font-weight: 700;
-      text-decoration: none;
-      background: var(--light-teal);
-      color: var(--dark-teal);
-    }
+    .pricing-features li::before { content: "✓"; font-weight: 700; color: var(--teal); }
+    .pricing-cta { display: block; text-align: center; padding: 12px; border-radius: 8px; font-size: 14px; font-weight: 700; text-decoration: none; background: var(--light-teal); color: var(--dark-teal); }
     .pricing-cta:hover { background: var(--teal); color: var(--white); }
     .pricing-card.featured .pricing-cta { background: var(--teal); color: var(--white); }
     .pricing-note { font-size: 13px; color: var(--gray); margin-top: 24px; }
-
-    /* TRUST */
     .trust { padding: 80px 32px; text-align: center; background: var(--white); }
-    .trust-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 32px;
-      max-width: 900px;
-      margin: 48px auto 0;
-    }
+    .trust-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 32px; max-width: 900px; margin: 48px auto 0; }
     .trust-item { text-align: center; }
     .trust-icon { font-size: 36px; margin-bottom: 12px; }
     .trust-title { font-size: 16px; font-weight: 700; color: var(--dark-teal); margin-bottom: 6px; }
     .trust-desc { font-size: 14px; color: var(--gray); line-height: 1.6; }
-
-    /* CTA BANNER */
     .cta-banner { background: var(--teal); padding: 72px 32px; text-align: center; }
-    .cta-banner h2 {
-      font-size: clamp(28px, 4vw, 44px);
-      font-weight: 800;
-      color: var(--white);
-      letter-spacing: -0.5px;
-      margin-bottom: 12px;
-    }
+    .cta-banner h2 { font-size: clamp(28px, 4vw, 44px); font-weight: 800; color: var(--white); letter-spacing: -0.5px; margin-bottom: 12px; }
     .cta-banner p { font-size: 16px; color: rgba(255,255,255,0.75); margin-bottom: 32px; }
-    .btn-dark {
-      background: var(--navy);
-      color: var(--white);
-      font-size: 16px;
-      font-weight: 700;
-      padding: 16px 36px;
-      border-radius: 10px;
-      text-decoration: none;
-      display: inline-block;
-    }
+    .btn-dark { background: var(--navy); color: var(--white); font-size: 16px; font-weight: 700; padding: 16px 36px; border-radius: 10px; text-decoration: none; display: inline-block; }
     .btn-dark:hover { background: var(--dark-teal); }
-
-    /* FAQ */
     .faq { background: var(--light); padding: 80px 32px; }
     .faq-inner { max-width: 680px; margin: 0 auto; }
     .faq-inner .section-title { text-align: center; margin-bottom: 12px; }
     .faq-inner .section-sub { text-align: center; }
     .faq-list { margin-top: 40px; display: flex; flex-direction: column; gap: 12px; }
     .faq-item { background: var(--white); border-radius: 10px; overflow: hidden; border: 1px solid #d6eef1; }
-    .faq-q {
-      padding: 18px 20px;
-      font-size: 15px;
-      font-weight: 600;
-      color: var(--dark-teal);
-      cursor: pointer;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      user-select: none;
-    }
+    .faq-q { padding: 18px 20px; font-size: 15px; font-weight: 600; color: var(--dark-teal); cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; }
     .faq-q::after { content: "+"; font-size: 20px; color: var(--teal); }
-    .faq-q.open::after { content: "â"; }
+    .faq-q.open::after { content: "−"; }
     .faq-a { display: none; padding: 0 20px 18px; font-size: 14px; color: var(--gray); line-height: 1.7; }
     .faq-a.open { display: block; }
-
-    /* FOOTER */
     footer { background: var(--navy); color: rgba(255,255,255,0.4); padding: 40px 32px; text-align: center; font-size: 13px; }
     footer strong { color: var(--white); }
     .footer-tagline { color: var(--teal); font-weight: 700; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px; }
-
-    /* SOCIAL LINKS */
     .social-links { display: flex; justify-content: center; gap: 16px; margin: 16px 0; }
     .social-links a { display: inline-flex; align-items: center; justify-content: center; width: 40px; height: 40px; border-radius: 10px; background: rgba(255,255,255,0.08); color: rgba(255,255,255,0.6); text-decoration: none; transition: background 0.2s, color 0.2s; }
     .social-links a:hover { background: var(--teal); color: var(--white); }
     .social-links svg { width: 20px; height: 20px; fill: currentColor; }
-
     @media (max-width: 640px) {
       .bus-inner { grid-template-columns: 1fr; }
       .nav-links { display: none; }
+      .nav-social { display: none; }
     }
   </style>
-
-  <!-- LocalBusiness structured data for Google -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -455,74 +146,33 @@
       "addressRegion": "MO",
       "addressCountry": "US"
     },
-    "areaServed": [
-      "Kansas City, MO",
-      "Kansas City, KS",
-      "Overland Park, KS",
-      "Leawood, KS",
-      "Lee's Summit, MO",
-      "Independence, MO"
-    ],
+    "areaServed": ["Kansas City, MO","Kansas City, KS","Overland Park, KS","Leawood, KS","Lee's Summit, MO","Independence, MO"],
     "serviceType": "Party Bus Rental",
     "priceRange": "$$",
     "openingHours": "Mo-Su 00:00-23:59",
-    "sameAs": [
-      "https://www.facebook.com/profile.php?id=61573367338185",
-      "https://www.instagram.com/bustamovekc"
-    ]
+    "sameAs": ["https://www.facebook.com/profile.php?id=61573367338185","https://www.instagram.com/bustamovekc/"]
   }
   </script>
-
-  <!-- FAQPage structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How much does a party bus rental in Kansas City cost?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Bus-ta Move KC starts at $150/hr with a 4-hour minimum. A 50% deposit holds your date, with the balance due 7 days before your event."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How many people fit on the party bus?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Our party bus holds up to 12 passengers. It's exclusively yours â no strangers, no sharing."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is the party bus BYOB?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes! Our party bus is fully BYOB. Bring whatever you want to drink and enjoy your night out in Kansas City."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is Bus-ta Move KC licensed and insured?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. Bus-ta Move KC is fully licensed and insured. USDOT 4522297 Â· MC-1815285-C."
-        }
-      }
+      {"@type":"Question","name":"How much does a party bus rental in Kansas City cost?","acceptedAnswer":{"@type":"Answer","text":"Bus-ta Move KC starts at $150/hr with a 4-hour minimum. A 50% deposit holds your date, with the balance due 7 days before your event."}},
+      {"@type":"Question","name":"How many people fit on the party bus?","acceptedAnswer":{"@type":"Answer","text":"Our party bus holds up to 12 passengers. It's exclusively yours — no strangers, no sharing."}},
+      {"@type":"Question","name":"Is the party bus BYOB?","acceptedAnswer":{"@type":"Answer","text":"Yes! Our party bus is fully BYOB. Bring whatever you want to drink and enjoy your night out in Kansas City."}},
+      {"@type":"Question","name":"Is Bus-ta Move KC licensed and insured?","acceptedAnswer":{"@type":"Answer","text":"Yes. Bus-ta Move KC is fully licensed and insured. USDOT 4522297 · MC-1815285-C."}}
     ]
   }
   </script>
 </head>
 <body>
 
-<!-- NAV -->
 <nav>
   <a href="#" class="nav-logo">
     <img src="logo_busta_only-removebg-preview.png" alt="Bus-ta Move KC Logo" style="height:48px;width:auto;" onerror="this.style.display='none';document.getElementById('nav-fallback').style.display='block';">
     <div id="nav-fallback" class="nav-logo-fallback">
-      <span class="nav-logo-text"><span>ð</span>Bus-ta Move</span>
+      <span class="nav-logo-text"><span>🚌</span>Bus-ta Move</span>
       <span class="nav-tagline">Your Kansas City Party Bus</span>
     </div>
   </a>
@@ -532,10 +182,17 @@
     <li><a href="#pricing">Pricing</a></li>
     <li><a href="#faq">FAQ</a></li>
   </ul>
+  <div class="nav-social">
+    <a href="https://www.facebook.com/profile.php?id=61573367338185" target="_blank" rel="noopener" aria-label="Facebook">
+      <svg viewBox="0 0 24 24"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.267h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+    </a>
+    <a href="https://www.instagram.com/bustamovekc/" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+    </a>
+  </div>
   <a href="https://forms.gle/SUd949XeLsGHb46g9" target="_blank" class="nav-cta">Check Availability</a>
 </nav>
 
-<!-- HERO -->
 <section class="hero">
   <div class="hero-tag">Now booking in Kansas City</div>
   <div class="hero-sub">Kansas City Party Bus Rental</div>
@@ -546,242 +203,153 @@
     <a href="#pricing" class="btn-secondary">See Pricing</a>
   </div>
   <div class="hero-stats">
-    <div class="stat">
-      <div class="stat-number">12</div>
-      <div class="stat-label">Passenger capacity</div>
-    </div>
-    <div class="stat">
-      <div class="stat-number">1</div>
-      <div class="stat-label">Exclusive bus â it's all yours</div>
-    </div>
-    <div class="stat">
-      <div class="stat-number">100%</div>
-      <div class="stat-label">Licensed &amp; insured Â· MC-1815285-C</div>
-    </div>
+    <div class="stat"><div class="stat-number">12</div><div class="stat-label">Passenger capacity</div></div>
+    <div class="stat"><div class="stat-number">1</div><div class="stat-label">Exclusive bus — it's all yours</div></div>
+    <div class="stat"><div class="stat-number">100%</div><div class="stat-label">Licensed &amp; insured · MC-1815285-C</div></div>
   </div>
 </section>
 
-<!-- OCCASIONS -->
 <section class="occasions" id="occasions">
   <div class="section-tag">Perfect for</div>
   <h2 class="section-title">Every reason to celebrate</h2>
-  <p class="section-sub">From bachelorette blowouts to birthday nights out â if you're celebrating in Kansas City, we've got the ride.</p>
+  <p class="section-sub">From bachelorette blowouts to birthday nights out — if you're celebrating in Kansas City, we've got the ride.</p>
   <div class="occasions-grid">
-    <div class="occasion-card"><div class="occasion-icon">ð</div><div class="occasion-label">Bachelorette Parties</div></div>
-    <div class="occasion-card"><div class="occasion-icon">ð</div><div class="occasion-label">Birthday Celebrations</div></div>
-    <div class="occasion-card"><div class="occasion-icon">ð</div><div class="occasion-label">Prom &amp; Homecoming</div></div>
-    <div class="occasion-card"><div class="occasion-icon">ð</div><div class="occasion-label">Girls' Night Out</div></div>
-    <div class="occasion-card"><div class="occasion-icon">ð¢</div><div class="occasion-label">Corporate Events</div></div>
-    <div class="occasion-card"><div class="occasion-icon">ð¥</div><div class="occasion-label">Holiday Parties</div></div>
-    <div class="occasion-card"><div class="occasion-icon">ð¸</div><div class="occasion-label">Concert Nights</div></div>
-    <div class="occasion-card"><div class="occasion-icon">ð·</div><div class="occasion-label">Bar Crawls</div></div>
-    <div class="occasion-card"><div class="occasion-icon">ð°</div><div class="occasion-label">Wedding Shuttles</div></div>
-    <div class="occasion-card"><div class="occasion-icon">ð</div><div class="occasion-label">Chiefs &amp; Royals Tailgates</div></div>
+    <div class="occasion-card"><div class="occasion-icon">💍</div><div class="occasion-label">Bachelorette Parties</div></div>
+    <div class="occasion-card"><div class="occasion-icon">🎂</div><div class="occasion-label">Birthday Celebrations</div></div>
+    <div class="occasion-card"><div class="occasion-icon">🎓</div><div class="occasion-label">Prom &amp; Homecoming</div></div>
+    <div class="occasion-card"><div class="occasion-icon">🎉</div><div class="occasion-label">Girls' Night Out</div></div>
+    <div class="occasion-card"><div class="occasion-icon">🏢</div><div class="occasion-label">Corporate Events</div></div>
+    <div class="occasion-card"><div class="occasion-icon">🥂</div><div class="occasion-label">Holiday Parties</div></div>
+    <div class="occasion-card"><div class="occasion-icon">🎸</div><div class="occasion-label">Concert Nights</div></div>
+    <div class="occasion-card"><div class="occasion-icon">🍷</div><div class="occasion-label">Bar Crawls</div></div>
+    <div class="occasion-card"><div class="occasion-icon">👰</div><div class="occasion-label">Wedding Shuttles</div></div>
+    <div class="occasion-card"><div class="occasion-icon">🏈</div><div class="occasion-label">Chiefs &amp; Royals Tailgates</div></div>
   </div>
 </section>
 
-<!-- HOW IT WORKS -->
 <section class="how" id="how">
   <div class="section-tag">Simple process</div>
   <h2 class="section-title">Booking is easy</h2>
   <p class="section-sub">Three steps and your Kansas City night is locked in.</p>
   <div class="steps">
-    <div class="step">
-      <div class="step-num">1</div>
-      <h3>Check availability</h3>
-      <p>Tell us your date, event type, and how many people. We'll confirm if your date is open within a few hours.</p>
-    </div>
-    <div class="step">
-      <div class="step-num">2</div>
-      <h3>Lock it in with a deposit</h3>
-      <p>A 50% deposit holds your date. Simple online payment â card, Venmo, Zelle, or CashApp all work.</p>
-    </div>
-    <div class="step">
-      <div class="step-num">3</div>
-      <h3>Show up and party</h3>
-      <p>Your driver arrives on time. You board, the music goes up, and the rest is up to you. We handle the driving.</p>
-    </div>
+    <div class="step"><div class="step-num">1</div><h3>Check availability</h3><p>Tell us your date, event type, and how many people. We'll confirm if your date is open within a few hours.</p></div>
+    <div class="step"><div class="step-num">2</div><h3>Lock it in with a deposit</h3><p>A 50% deposit holds your date. Simple online payment — card, Venmo, Zelle, or CashApp all work.</p></div>
+    <div class="step"><div class="step-num">3</div><h3>Show up and party</h3><p>Your driver arrives on time. You board, the music goes up, and the rest is up to you. We handle the driving.</p></div>
   </div>
 </section>
 
-<!-- THE BUS -->
 <section class="bus-section" id="the-bus">
   <div class="bus-inner">
     <div class="bus-text">
       <div class="section-tag">The vehicle</div>
       <h2 class="section-title">No frills. All fun.</h2>
-      <p class="section-sub">One bus, exclusively yours. No strangers, no sharing â just your crew, the music loud, and Kansas City out the window.</p>
+      <p class="section-sub">One bus, exclusively yours. No strangers, no sharing — just your crew, the music loud, and Kansas City out the window.</p>
       <ul class="bus-features">
-        <li>Up to 12 passengers â your whole crew</li>
-        <li>Loud speaker system â bring the noise</li>
+        <li>Up to 12 passengers — your whole crew</li>
+        <li>Loud speaker system — bring the noise</li>
         <li>Big-screen TV to project from your phone</li>
         <li>Spacious seating with room to dance</li>
-        <li>BYOB â bring whatever you want to drink</li>
+        <li>BYOB — bring whatever you want to drink</li>
         <li>Professional, licensed driver included</li>
         <li>Cleaned before every rental</li>
         <li>Fully licensed &amp; insured</li>
       </ul>
     </div>
-    <!-- Photo Gallery -->
     <div style="width:100%;display:flex;flex-direction:column;gap:12px;max-width:560px;margin:0 auto;">
-      <img src="Busta BUS pic.png" alt="Bus-ta Move KC party bus â Kansas City party bus rental" style="width:100%;border-radius:12px;object-fit:cover;aspect-ratio:16/9;" loading="lazy">
+      <img src="Busta BUS pic.png" alt="Bus-ta Move KC party bus — Kansas City party bus rental" style="width:100%;border-radius:12px;object-fit:cover;aspect-ratio:16/9;" loading="lazy">
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
-        <img src="bus-interior-1.jpg" alt="Bus-ta Move KC interior â LED lights and speaker system" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy">
-        <img src="bus-interior-2.jpeg" alt="Bus-ta Move KC interior â bench seating and LED lighting" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy">
+        <img src="bus-interior-1.jpg" alt="Bus-ta Move KC interior — LED lights and speaker system" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" onerror="this.style.display='none'">
+        <img src="bus-interior-2.jpg" alt="Bus-ta Move KC interior — bench seating and LED lighting" style="width:100%;border-radius:10px;object-fit:cover;aspect-ratio:4/3;" loading="lazy" onerror="this.style.display='none'">
       </div>
-      <img src="Bus jpg.jpg" alt="Bus-ta Move KC party bus exterior â Kansas City party bus" style="width:100%;border-radius:12px;object-fit:cover;aspect-ratio:16/9;" loading="lazy">
     </div>
   </div>
 </section>
 
-<!-- PRICING -->
 <section class="pricing" id="pricing">
   <div class="section-tag">Transparent pricing</div>
   <h2 class="section-title">No hidden fees. Ever.</h2>
   <p class="section-sub">You see the full price before you book. What you're quoted is what you pay.</p>
   <div class="pricing-cards">
-
     <div class="pricing-card">
       <div class="pricing-name">Standard Rate</div>
       <div class="pricing-price">$150<span style="font-size:18px;font-weight:600">/hr</span></div>
-      <div class="pricing-unit">4-hour minimum Â· +20% driver tip</div>
+      <div class="pricing-unit">4-hour minimum · +20% driver tip</div>
       <ul class="pricing-features">
-        <li>Up to 12 passengers</li>
-        <li>Driver included</li>
-        <li>Loud speaker &amp; TV</li>
-        <li>Custom route &amp; stops</li>
-        <li>BYOB â bring your own</li>
+        <li>Up to 12 passengers</li><li>Driver included</li><li>Loud speaker &amp; TV</li><li>Custom route &amp; stops</li><li>BYOB — bring your own</li>
       </ul>
       <a href="https://forms.gle/SUd949XeLsGHb46g9" target="_blank" class="pricing-cta">Check Availability</a>
     </div>
-
     <div class="pricing-card featured">
-      <div class="pricing-badge">â¾ Limited Promo</div>
+      <div class="pricing-badge">⚾ Limited Promo</div>
       <div class="pricing-name">Royals Weekday Special</div>
       <div class="pricing-price">$560<span style="font-size:18px;font-weight:600"> total</span></div>
-      <div class="pricing-unit">Driver tip included Â· KC Metro only</div>
+      <div class="pricing-unit">Driver tip included · KC Metro only</div>
       <ul class="pricing-features">
-        <li>Up to 12 passengers</li>
-        <li>Pickup 1 hr before first pitch</li>
-        <li>Single 435-loop pickup location</li>
-        <li>Drop-off after the game ends</li>
-        <li>Early tailgate arrival available</li>
-        <li>BYOB â bring the beer</li>
+        <li>Up to 12 passengers</li><li>Pickup 1 hr before first pitch</li><li>Single 435-loop pickup location</li><li>Drop-off after the game ends</li><li>Early tailgate arrival available</li><li>BYOB — bring the beer</li>
       </ul>
       <a href="https://forms.gle/SUd949XeLsGHb46g9" target="_blank" class="pricing-cta">Book the Royals Ride</a>
     </div>
-
     <div class="pricing-card">
       <div class="pricing-name">Custom Event</div>
       <div class="pricing-price" style="font-size:26px;padding-top:6px">Get a Quote</div>
       <div class="pricing-unit">Weddings, corporate &amp; more</div>
       <ul class="pricing-features">
-        <li>Up to 12 passengers</li>
-        <li>Driver included</li>
-        <li>Loud speaker &amp; TV</li>
-        <li>Flexible schedule</li>
-        <li>Great for weddings &amp; events</li>
+        <li>Up to 12 passengers</li><li>Driver included</li><li>Loud speaker &amp; TV</li><li>Flexible schedule</li><li>Great for weddings &amp; events</li>
       </ul>
       <a href="mailto:bustamovekc@gmail.com?subject=Custom Event Quote" class="pricing-cta">Request a Quote</a>
     </div>
-
   </div>
-  <p class="pricing-note">Standard rate: $150/hr Â· 4-hour minimum Â· +20% driver tip. Royals promo available for Kansas City Metro clients on weekday games only â additional travel surcharges may apply outside the metro area. 50% deposit required to hold your date. Balance due 7 days before your event.</p>
+  <p class="pricing-note">Standard rate: $150/hr · 4-hour minimum · +20% driver tip. Royals promo available for Kansas City Metro clients on weekday games only — additional travel surcharges may apply outside the metro area. 50% deposit required to hold your date. Balance due 7 days before your event.</p>
 </section>
 
-<!-- TRUST -->
 <section class="trust">
   <div class="section-tag">Why Bus-ta Move</div>
   <h2 class="section-title">Kansas City's party bus you can actually trust</h2>
   <p class="section-sub">We're local, licensed, and built this business to do one thing right.</p>
   <div class="trust-grid">
-    <div class="trust-item">
-      <div class="trust-icon">ð¡ï¸</div>
-      <div class="trust-title">Fully Licensed &amp; Insured</div>
-      <div class="trust-desc">Commercial vehicle insurance, background-checked drivers, and all required permits. You're covered.</div>
-    </div>
-    <div class="trust-item">
-      <div class="trust-icon">ð§¼</div>
-      <div class="trust-title">Clean Every Time</div>
-      <div class="trust-desc">Every rental starts with a clean bus. We take care of the vehicle so you can focus on the party.</div>
-    </div>
-    <div class="trust-item">
-      <div class="trust-icon">ð</div>
-      <div class="trust-title">Local &amp; Owner-Operated</div>
-      <div class="trust-desc">We live here too. We know KC and we care about your experience because our name is on the bus.</div>
-    </div>
-    <div class="trust-item">
-      <div class="trust-icon">ð¬</div>
-      <div class="trust-title">Real Humans, Fast Replies</div>
-      <div class="trust-desc">Questions before your event? You'll talk to a real person, not a chatbot. We respond same day.</div>
-    </div>
+    <div class="trust-item"><div class="trust-icon">🛡️</div><div class="trust-title">Fully Licensed &amp; Insured</div><div class="trust-desc">Commercial vehicle insurance, background-checked drivers, and all required permits. You're covered.</div></div>
+    <div class="trust-item"><div class="trust-icon">🧼</div><div class="trust-title">Clean Every Time</div><div class="trust-desc">Every rental starts with a clean bus. We take care of the vehicle so you can focus on the party.</div></div>
+    <div class="trust-item"><div class="trust-icon">📍</div><div class="trust-title">Local &amp; Owner-Operated</div><div class="trust-desc">We live here too. We know KC and we care about your experience because our name is on the bus.</div></div>
+    <div class="trust-item"><div class="trust-icon">💬</div><div class="trust-title">Real Humans, Fast Replies</div><div class="trust-desc">Questions before your event? You'll talk to a real person, not a chatbot. We respond same day.</div></div>
   </div>
 </section>
 
-<!-- CTA BANNER -->
 <section class="cta-banner" id="book">
   <h2>Ready to Bus-ta Move?</h2>
-  <p>Dates fill up fast â especially Friday and Saturday nights in KC. Lock yours in now.</p>
-  <a href="https://forms.gle/SUd949XeLsGHb46g9" target="_blank" class="btn-dark">Request Your Date â</a>
+  <p>Dates fill up fast — especially Friday and Saturday nights in KC. Lock yours in now.</p>
+  <a href="https://forms.gle/SUd949XeLsGHb46g9" target="_blank" class="btn-dark">Request Your Date →</a>
 </section>
 
-<!-- FAQ -->
 <section class="faq" id="faq">
   <div class="faq-inner">
     <h2 class="section-title">Frequently asked</h2>
     <p class="section-sub">Everything you want to know before you book.</p>
     <div class="faq-list">
-
-      <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">How many people can fit on the bus?</div>
-        <div class="faq-a">Our bus holds a maximum of 12 passengers â this is a hard limit set by law. We can't make exceptions, so please plan your group accordingly.</div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">Can we bring our own drinks?</div>
-        <div class="faq-a">Yes â Bus-ta Move is fully BYOB. Bring whatever you want to drink. We don't provide alcohol or a cooler, so pack a bag or bring a small cooler of your own. If any passengers are under 21, it is your responsibility to ensure they don't consume alcohol. Please, no glass bottles.</div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">What's on the bus?</div>
-        <div class="faq-a">A loud speaker system so the music hits right, and a big-screen TV you can connect to your phone and project whatever you want â playlist visuals, slideshows, games, whatever fits the vibe. It's no frills, all fun.</div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">What's your cancellation policy?</div>
-        <div class="faq-a">Your 50% deposit is non-refundable. If you cancel 30+ days out, that's all you owe. Cancellations within 14 days are subject to additional fees â full details are in your booking agreement.</div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">Can we choose our route and stops?</div>
-        <div class="faq-a">Absolutely. We know Kansas City â from the Power &amp; Light District to the Plaza to Westport â and we'll work with you to plan the perfect route. Just share your stops when you book.</div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">What happens if we go over our booked time?</div>
-        <div class="faq-a">Overtime is charged at $150/hr, billed in 30-minute increments. If you think you'll need more time, it's always better to book it upfront â we can usually accommodate if the schedule allows.</div>
-      </div>
-
-      <div class="faq-item">
-        <div class="faq-q" onclick="toggleFaq(this)">How do I officially book?</div>
-        <div class="faq-a">Fill out our quick request form and we'll confirm your date is available. We'll follow up with a booking agreement and payment link. Once your deposit clears, you're locked in. Easy.</div>
-      </div>
-
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">How many people can fit on the bus?</div><div class="faq-a">Our bus holds a maximum of 12 passengers — this is a hard limit set by law. We can't make exceptions, so please plan your group accordingly.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Can we bring our own drinks?</div><div class="faq-a">Yes — Bus-ta Move is fully BYOB. Bring whatever you want to drink. We don't provide alcohol or a cooler, so pack a bag or bring a small cooler of your own. If any passengers are under 21, it is your responsibility to ensure they don't consume alcohol. Please, no glass bottles.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">What's on the bus?</div><div class="faq-a">A loud speaker system so the music hits right, and a big-screen TV you can connect to your phone and project whatever you want — playlist visuals, slideshows, games, whatever fits the vibe. It's no frills, all fun.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">What's your cancellation policy?</div><div class="faq-a">Your 50% deposit is non-refundable. If you cancel 30+ days out, that's all you owe. Cancellations within 14 days are subject to additional fees — full details are in your booking agreement.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">Can we choose our route and stops?</div><div class="faq-a">Absolutely. We know Kansas City — from the Power &amp; Light District to the Plaza to Westport — and we'll work with you to plan the perfect route. Just share your stops when you book.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">What happens if we go over our booked time?</div><div class="faq-a">Overtime is charged at $150/hr, billed in 30-minute increments. If you think you'll need more time, it's always better to book it upfront — we can usually accommodate if the schedule allows.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="toggleFaq(this)">How do I officially book?</div><div class="faq-a">Fill out our quick request form and we'll confirm your date is available. We'll follow up with a booking agreement and payment link. Once your deposit clears, you're locked in. Easy.</div></div>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer>
+<footer id="footer">
   <div class="footer-tagline">Your Kansas City Party Bus</div>
   <p><strong>Bus-ta Move</strong></p>
   <div class="social-links">
-    <a href="https://www.facebook.com/profile.php?id=61573367338185" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.267h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg></a>
-    <a href="https://www.instagram.com/bustamovekc/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+    <a href="https://www.facebook.com/profile.php?id=61573367338185" target="_blank" rel="noopener" aria-label="Bus-ta Move KC on Facebook">
+      <svg viewBox="0 0 24 24"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.267h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+    </a>
+    <a href="https://www.instagram.com/bustamovekc/" target="_blank" rel="noopener" aria-label="Bus-ta Move KC on Instagram">
+      <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+    </a>
   </div>
-  <p>Fountain City Collective, LP dba Bus-ta Move Â· USDOT 4522297 Â· MC-1815285-C<br>
-  Kansas City, MO &nbsp;Â·&nbsp; bustamovekc@gmail.com &nbsp;Â·&nbsp; 913.717.0702</p>
-  <p style="margin-top:16px; font-size:12px;">Â© 2026 Fountain City Collective, LP dba Bus-ta Move Â· USDOT 4522297 Â· MC-1815285-C. All rights reserved.</p>
+  <p>Fountain City Collective, LP dba Bus-ta Move · USDOT 4522297 · MC-1815285-C<br>
+  Kansas City, MO &nbsp;·&nbsp; bustamovekc@gmail.com &nbsp;·&nbsp; 913.717.0702</p>
+  <p style="margin-top:16px; font-size:12px;">© 2026 Fountain City Collective, LP dba Bus-ta Move · USDOT 4522297 · MC-1815285-C. All rights reserved.</p>
 </footer>
 
 <script>
@@ -801,4 +369,4 @@
 </script>
 
 </body>
-</html>
+  </html>
