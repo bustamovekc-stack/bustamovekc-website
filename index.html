@@ -47,7 +47,7 @@ nav { position: sticky; top: 0; z-index: 100; background: var(--white); border-b
 .hero h1 { font-size: clamp(38px, 7vw, 68px); font-weight: 800; line-height: 1.05; letter-spacing: -1px; max-width: 760px; margin: 0 auto 20px; }
 .hero h1 em { font-style: normal; color: var(--teal); }
 .hero p { font-size: 18px; color: rgba(255,255,255,0.65); max-width: 520px; margin: 0 auto 40px; line-height: 1.6; }
-.hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.hero-buttons { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
 .btn-primary { background: var(--teal); color: var(--white); font-size: 16px; font-weight: 700; padding: 16px 32px; border-radius: 10px; text-decoration: none; display: inline-block; }
 .btn-primary:hover { background: var(--mid-teal); }
 .btn-secondary { background: transparent; color: var(--white); font-size: 16px; font-weight: 600; padding: 16px 32px; border-radius: 10px; text-decoration: none; border: 2px solid rgba(255,255,255,0.2); display: inline-block; }
@@ -77,7 +77,7 @@ nav { position: sticky; top: 0; z-index: 100; background: var(--white); border-b
 .bus-text .section-sub { color: rgba(255,255,255,0.6); margin: 0 0 32px; max-width: none; }
 .bus-features { list-style: none; display: flex; flex-direction: column; gap: 12px; }
 .bus-features li { display: flex; align-items: center; gap: 10px; font-size: 15px; color: rgba(255,255,255,0.85); }
-.bus-features li::before { content: "&#10003;"; display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; background: var(--teal); color: var(--white); font-size: 12px; font-weight: 800; border-radius: 5px; flex-shrink: 0; }
+.bus-features li::before { content: "\2713"; display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; background: var(--teal); color: var(--white); font-size: 12px; font-weight: 800; border-radius: 5px; flex-shrink: 0; }
 .pricing { background: var(--light); padding: 80px 32px; text-align: center; }
 .pricing-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; max-width: 860px; margin: 48px auto 0; }
 .pricing-card { background: var(--white); border-radius: 16px; padding: 32px 24px; text-align: left; position: relative; border: 1px solid #d6eef1; }
@@ -91,7 +91,7 @@ nav { position: sticky; top: 0; z-index: 100; background: var(--white); border-b
 .pricing-features { list-style: none; display: flex; flex-direction: column; gap: 10px; margin-bottom: 24px; }
 .pricing-features li { font-size: 14px; color: var(--gray); display: flex; align-items: center; gap: 8px; }
 .pricing-card.featured .pricing-features li { color: rgba(255,255,255,0.75); }
-.pricing-features li::before { content: "&#10003;"; font-weight: 700; color: var(--teal); }
+.pricing-features li::before { content: "\2713"; font-weight: 700; color: var(--teal); }
 .pricing-cta { display: block; text-align: center; padding: 12px; border-radius: 8px; font-size: 14px; font-weight: 700; text-decoration: none; background: var(--light-teal); color: var(--dark-teal); }
 .pricing-cta:hover { background: var(--teal); color: var(--white); }
 .pricing-card.featured .pricing-cta { background: var(--teal); color: var(--white); }
@@ -115,7 +115,7 @@ nav { position: sticky; top: 0; z-index: 100; background: var(--white); border-b
 .faq-item { background: var(--white); border-radius: 10px; overflow: hidden; border: 1px solid #d6eef1; }
 .faq-q { padding: 18px 20px; font-size: 15px; font-weight: 600; color: var(--dark-teal); cursor: pointer; display: flex; justify-content: space-between; align-items: center; user-select: none; }
 .faq-q::after { content: "+"; font-size: 20px; color: var(--teal); }
-.faq-q.open::after { content: "&#8722;"; }
+.faq-q.open::after { content: "\2212"; }
 .faq-a { display: none; padding: 0 20px 18px; font-size: 14px; color: var(--gray); line-height: 1.7; }
 .faq-a.open { display: block; }
 footer { background: var(--navy); color: rgba(255,255,255,0.4); padding: 40px 32px; text-align: center; font-size: 13px; }
@@ -173,7 +173,7 @@ footer strong { color: var(--white); }
 {"@type":"Question","name":"How much does a party bus rental in Kansas City cost?","acceptedAnswer":{"@type":"Answer","text":"Bus-ta Move KC starts at $150/hr with a 4-hour minimum. A 50% deposit holds your date, with the balance due 7 days before your event."}},
 {"@type":"Question","name":"How many people fit on the party bus?","acceptedAnswer":{"@type":"Answer","text":"Our party bus holds up to 12 passengers. It's exclusively yours &#8212; no strangers, no sharing."}},
 {"@type":"Question","name":"Is the party bus BYOB?","acceptedAnswer":{"@type":"Answer","text":"Yes! Our party bus is fully BYOB. Bring whatever you want to drink and enjoy your night out in Kansas City."}},
-{"@type":"Question","name":"Is Bus-ta Move KC licensed and insured?","acceptedAnswer":{"@type":"Answer","text":"Yfs. Bus-ta Move KC is fully licensed and insured. USDOT 4522297 &#183; MC-1815285-C."}}
+{"@type":"Question","name":"Is Bus-ta Move KC licensed and insured?","acceptedAnswer":{"@type":"Answer","text":"Yes. Bus-ta Move KC is fully licensed and insured. USDOT 4522297 &#183; MC-1815285-C."}}
 ]
 }
 </script>
